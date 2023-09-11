@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>ATM</title>
+
+</head>
+
+<body>
+    <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="card" style="width: 28rem; height: 28rem;">
+            <div class="card-body">
+                <form id="form" class="d-flex flex-column justify-content-center">
+                    <div id="textuser" class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">User Account</label>
+                        <input id="inputUser" type="input" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div id="textpass" class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPass">
+                    </div>
+                    <div id="acceptbutton" class="mb-3">
+                        <button id="button" type="submit" class="btn btn-primary">Accept</button>
+                    </div>
+                    <div id="elementlHelp" class="form-text mb-3">We'll never share your credentials with anyone else.
+                    </div>
+
+                    <div class="position-absolute top-50 start-50 translate-middle">
+                        <div id="inputAmountUser" class="mb-3 options">
+                            <input id="inputAmount" type="input" class="form-control" aria-describedby="emailHelp">
+                        </div>
+                        <div id="inputSubAmountUser" class="mb-3 options">
+                            <input id="SubInputAmount" type="input" class="form-control" aria-describedby="emailHelp">
+                        </div>
+                        <div id="consultar" class="mb-3 options">
+                            <button id="button2" type="submit" class="btn btn-primary">consultar</button>
+                        </div>
+                        <div id="ingresar" class="mb-3 options">
+                            <button id="button3" type="submit" class="btn btn-primary">ingresar</button>
+                        </div>
+                        <div id="retirar" class="mb-3 options">
+                            <button id="button4" type="submit" class="btn btn-primary">retirar</button>
+                        </div>
+                        <div id="backtologin" class="mb-3 options">
+                            <button id="button5" type="submit" class="btn btn-primary">regresar login</button>
+                        </div>
+                        <div id="addAmountUserbutton" class="mb-3 options">
+                            <button id="addAmountUserConfirm" type="submit" class="btn btn-primary">Confirm Amount</button>
+                        </div>
+                        <div id="subAmountUserbutton" class="mb-3 options">
+                            <button id="subAmountUserConfirm" type="submit" class="btn btn-primary">Confirm Operation</button>
+                        </div>
+                        <div id="backtooptions" class="mb-3 options">
+                            <button id="button6" type="submit" class="btn btn-primary">regresar options</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+    <script src="./db.js"></script>
+    <script src="./objects.js"></script>
+</body>
+
+</html>
